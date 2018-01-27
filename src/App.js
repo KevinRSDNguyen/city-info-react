@@ -31,7 +31,9 @@ class App extends Component {
     return (
       <Aux>
         <Searchbar findMatches={this.findMatches} />
-        <CitiesList matchingResults={this.state.matchingResults} />
+        <CitiesList
+          matchingResults={this.state.matchingResults}
+        />
       </Aux>
     );
   }
